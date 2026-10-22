@@ -1,0 +1,30 @@
+{
+  "case": 0,
+  "operations_per_hart": 1024,
+  "total_target_operations": 2048,
+  "harts": [
+    {
+      "hart": 0,
+      "start_marker_cycle": 366,
+      "first_target_retire_cycle": 420,
+      "last_target_retire_cycle": 6558,
+      "rf_checked_marker_cycle": 6591,
+      "target_retire_window_cycles": 6139,
+      "start_to_rf_checked_cycles": 6226,
+      "final_rf": "0x0000000000000411"
+    },
+    {
+      "hart": 1,
+      "start_marker_cycle": 410,
+      "first_target_retire_cycle": 436,
+      "last_target_retire_cycle": 6574,
+      "rf_checked_marker_cycle": 6608,
+      "target_retire_window_cycles": 6139,
+      "start_to_rf_checked_cycles": 6199,
+      "final_rf": "0x0000000000000c7b"
+    }
+  ],
+  "host_wall_seconds_with_verbose": 5.9238142909998714,
+  "timing_note": "overall release-to-join uses only hart0 timer; local hart intervals use each own timer; no cross-hart absolute counter subtraction",
+  "hart0_release_to_join_cycles": 6370
+}

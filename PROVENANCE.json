@@ -1,0 +1,587 @@
+{
+  "review_archive_sha256": "0af2864ccaf32a513b3e3051a594737174d07a26af068c1b4a7f44be2212bf2c",
+  "upstream_chipyard_revision": null,
+  "upstream_rocket_chip_revision": null,
+  "revision_note": "No upstream revision was established. The observed workspace Git HEAD is not asserted to be a Chipyard or Rocket revision.",
+  "files": [
+    {
+      "published_path": "snapshots/b2/overlay/generators/rocket-chip/src/main/scala/rocket/RocketCore.scala",
+      "review_input_path": "HYTRON64_B2_BASELINE_SOURCE_20261022_110816/B2_BASELINE_SOURCE.tar.gz",
+      "review_input_sha256": "bcb292af2482702d02d2278e3cfe9caffcc3ad592fc923761102c87683b2f3c7",
+      "published_sha256": "0e06de37d081e5d93f9127e3bc766553e72910b9a9c2e3f3162e522fb732d511",
+      "transformation": "English comments, local-path redaction, whitespace normalization; publication notice where applicable",
+      "archive_member": "generators/rocket-chip/src/main/scala/rocket/RocketCore.scala"
+    },
+    {
+      "published_path": "snapshots/b2/overlay/generators/rocket-chip/src/main/scala/rocket/CSR.scala",
+      "review_input_path": "HYTRON64_B2_BASELINE_SOURCE_20261022_110816/B2_BASELINE_SOURCE.tar.gz",
+      "review_input_sha256": "ff23f7e5933e05c056f8b1a8489fa885a378a4351b5f9f7513ff0a5e81373d9d",
+      "published_sha256": "8f0b27178f5741f37d49d85cd253f590eb46bf44cc15703ed9960a64edaca20b",
+      "transformation": "English comments, local-path redaction, whitespace normalization; publication notice where applicable",
+      "archive_member": "generators/rocket-chip/src/main/scala/rocket/CSR.scala"
+    },
+    {
+      "published_path": "snapshots/b2/overlay/generators/rocket-chip/src/main/scala/rocket/RocketContextParams.scala",
+      "review_input_path": "HYTRON64_B2_BASELINE_SOURCE_20261022_110816/B2_BASELINE_SOURCE.tar.gz",
+      "review_input_sha256": "5581c7a29bc2e747be61ad1a0f212d49bbb00768e9ce8009fde62b4998521531",
+      "published_sha256": "8d7f94e1bd6b76be2ecb928b729d45cc333857b65c23b4fea4c27f869959bfae",
+      "transformation": "English comments, local-path redaction, whitespace normalization; publication notice where applicable",
+      "archive_member": "generators/rocket-chip/src/main/scala/rocket/RocketContextParams.scala"
+    },
+    {
+      "published_path": "snapshots/b2/overlay/generators/chipyard/src/main/scala/Hytron64SmallConfig.scala",
+      "review_input_path": "chipyard/generators/chipyard/src/main/scala/Hytron64SmallConfig.scala",
+      "review_input_sha256": "6daa34eb409841631965db946b440856663b8d3e5360753dccd73b1a510baa58",
+      "published_sha256": "7a30791a5fb136df5c092f9da9bccfaced1ab27a58a52c32467a614ab899f2b8",
+      "transformation": "English comments, local-path redaction, whitespace normalization; publication notice where applicable"
+    },
+    {
+      "published_path": "snapshots/b2/overlay/generators/chipyard/src/main/scala/Hytron64SmallSmpL2B1Config.scala",
+      "review_input_path": "chipyard/generators/chipyard/src/main/scala/Hytron64SmallSmpL2B1Config.scala",
+      "review_input_sha256": "118af44c19426313ce6d09ae9d662e5739c5ef327ef7a3d7f3cf062f54608162",
+      "published_sha256": "615ae307d1e3481e34b38aaf3f1b983aba069b3826c577bcee80e004268f2fea",
+      "transformation": "English comments, local-path redaction, whitespace normalization; publication notice where applicable"
+    },
+    {
+      "published_path": "snapshots/b2/overlay/generators/chipyard/src/main/scala/Hytron64SmallB2TwoContextConfig.scala",
+      "review_input_path": "chipyard/generators/chipyard/src/main/scala/Hytron64SmallB2TwoContextConfig.scala",
+      "review_input_sha256": "dd69270e462c5a90c1d9c542ea64d596679146b3be6a796d07e23605ea02f266",
+      "published_sha256": "a3c69938356ee91d776652a35d1220266a26d4aa2d68f68c5e0a006e05851dc3",
+      "transformation": "English comments, local-path redaction, whitespace normalization; publication notice where applicable"
+    },
+    {
+      "published_path": "snapshots/b3/overlay/generators/rocket-chip/src/main/scala/rocket/RocketCore.scala",
+      "review_input_path": "HYTRON64_B3_DUALADD_R1p1/R1p1.patch",
+      "review_input_sha256": "6e250e096407fe2b82e3b6a942fb85557a5299e337bc9bc73d6a54bcad840017",
+      "published_sha256": "fd9587cf65cdb3fce6ae61c06472cdc5b547e2265010ed4c5b9c3a32b0ac6a6a",
+      "transformation": "English comments, local-path redaction, whitespace normalization; publication notice where applicable",
+      "reconstruction": {
+        "base": "HYTRON64_B3_DUALADD_R1/overlay/generators/rocket-chip/src/main/scala/rocket/RocketCore.scala",
+        "base_sha256": "2bdbce3190ec2dc4572dde4435c80502fc228d4c927074c19111b3e616c32abd",
+        "patch": "HYTRON64_B3_DUALADD_R1p1/R1p1.patch",
+        "patch_sha256": "42e13a2a1c81d3ae8921a08b331e8087e4ba343b3959fa0224da96e99ccd3797",
+        "reconstructed_sha256": "6e250e096407fe2b82e3b6a942fb85557a5299e337bc9bc73d6a54bcad840017",
+        "note": "Exact zero-fuzz patch reconstruction; reconstructed hash matches the supplied R1.1 manifest. review_input_sha256 is the reconstructed content hash."
+      }
+    },
+    {
+      "published_path": "snapshots/b3/overlay/generators/rocket-chip/src/main/scala/rocket/CSR.scala",
+      "review_input_path": "HYTRON64_B2_BASELINE_SOURCE_20261022_110816/B2_BASELINE_SOURCE.tar.gz",
+      "review_input_sha256": "ff23f7e5933e05c056f8b1a8489fa885a378a4351b5f9f7513ff0a5e81373d9d",
+      "published_sha256": "8f0b27178f5741f37d49d85cd253f590eb46bf44cc15703ed9960a64edaca20b",
+      "transformation": "English comments, local-path redaction, whitespace normalization; publication notice where applicable",
+      "archive_member": "generators/rocket-chip/src/main/scala/rocket/CSR.scala"
+    },
+    {
+      "published_path": "snapshots/b3/overlay/generators/rocket-chip/src/main/scala/rocket/RocketContextParams.scala",
+      "review_input_path": "HYTRON64_B3_DUALADD_R1/overlay/generators/rocket-chip/src/main/scala/rocket/RocketContextParams.scala",
+      "review_input_sha256": "a2d1e151177c041a4816dae7b5bf46a7b0a41c634fa172022286f7811715d16d",
+      "published_sha256": "183bf81747e8c36db6b061d2618e0c126ed2636b9839db024bb256f5c7a183cc",
+      "transformation": "English comments, local-path redaction, whitespace normalization; publication notice where applicable"
+    },
+    {
+      "published_path": "snapshots/b3/overlay/generators/chipyard/src/main/scala/Hytron64SmallConfig.scala",
+      "review_input_path": "chipyard/generators/chipyard/src/main/scala/Hytron64SmallConfig.scala",
+      "review_input_sha256": "6daa34eb409841631965db946b440856663b8d3e5360753dccd73b1a510baa58",
+      "published_sha256": "7a30791a5fb136df5c092f9da9bccfaced1ab27a58a52c32467a614ab899f2b8",
+      "transformation": "English comments, local-path redaction, whitespace normalization; publication notice where applicable"
+    },
+    {
+      "published_path": "snapshots/b3/overlay/generators/chipyard/src/main/scala/Hytron64SmallSmpL2B1Config.scala",
+      "review_input_path": "chipyard/generators/chipyard/src/main/scala/Hytron64SmallSmpL2B1Config.scala",
+      "review_input_sha256": "118af44c19426313ce6d09ae9d662e5739c5ef327ef7a3d7f3cf062f54608162",
+      "published_sha256": "615ae307d1e3481e34b38aaf3f1b983aba069b3826c577bcee80e004268f2fea",
+      "transformation": "English comments, local-path redaction, whitespace normalization; publication notice where applicable"
+    },
+    {
+      "published_path": "snapshots/b3/overlay/generators/chipyard/src/main/scala/Hytron64SmallB2TwoContextConfig.scala",
+      "review_input_path": "chipyard/generators/chipyard/src/main/scala/Hytron64SmallB2TwoContextConfig.scala",
+      "review_input_sha256": "dd69270e462c5a90c1d9c542ea64d596679146b3be6a796d07e23605ea02f266",
+      "published_sha256": "a3c69938356ee91d776652a35d1220266a26d4aa2d68f68c5e0a006e05851dc3",
+      "transformation": "English comments, local-path redaction, whitespace normalization; publication notice where applicable"
+    },
+    {
+      "published_path": "snapshots/b3/overlay/generators/chipyard/src/main/scala/Hytron64SmallB3DualAddConfig.scala",
+      "review_input_path": "chipyard/generators/chipyard/src/main/scala/Hytron64SmallB3DualAddConfig.scala",
+      "review_input_sha256": "433aad8bbcfd133905918bc0a5cccfe3ec92a75b4387358d0492aa25b51dbc2b",
+      "published_sha256": "c8684db75879adc8816841e44797a5eeb5abbb7bc74ff49f81f4aab0ed3c66d6",
+      "transformation": "English comments, local-path redaction, whitespace normalization; publication notice where applicable"
+    },
+    {
+      "published_path": "snapshots/b3/overlay/generators/chipyard/src/main/scala/Hytron64SmallB3DualAddR1p1Config.scala",
+      "review_input_path": "chipyard/generators/chipyard/src/main/scala/Hytron64SmallB3DualAddR1p1Config.scala",
+      "review_input_sha256": "7760df4e98883f342ad9cfde76365da59f5e79ff0769689df59927721e4c88f4",
+      "published_sha256": "71882196b324c0786342bba0cec8d4292087d5ebcf479eeaa934a1f806934448",
+      "transformation": "English comments, local-path redaction, whitespace normalization; publication notice where applicable"
+    },
+    {
+      "published_path": "snapshots/b4/overlay/generators/rocket-chip/src/main/scala/rocket/RocketCore.scala",
+      "review_input_path": "chipyard/generators/rocket-chip/src/main/scala/rocket/RocketCore.scala",
+      "review_input_sha256": "3136b9b16df7542d47da1a8555e23fbcd3e4a1f143213a2458b0d41e2730c965",
+      "published_sha256": "8d8840cdfeb586cb412f592e896ece3b5b46bb2f3bc6520672b3d64f1eb9e6e7",
+      "transformation": "English comments, local-path redaction, whitespace normalization; publication notice where applicable"
+    },
+    {
+      "published_path": "snapshots/b4/overlay/generators/rocket-chip/src/main/scala/rocket/CSR.scala",
+      "review_input_path": "chipyard/generators/rocket-chip/src/main/scala/rocket/CSR.scala",
+      "review_input_sha256": "ff23f7e5933e05c056f8b1a8489fa885a378a4351b5f9f7513ff0a5e81373d9d",
+      "published_sha256": "8f0b27178f5741f37d49d85cd253f590eb46bf44cc15703ed9960a64edaca20b",
+      "transformation": "English comments, local-path redaction, whitespace normalization; publication notice where applicable"
+    },
+    {
+      "published_path": "snapshots/b4/overlay/generators/rocket-chip/src/main/scala/rocket/RocketContextParams.scala",
+      "review_input_path": "chipyard/generators/rocket-chip/src/main/scala/rocket/RocketContextParams.scala",
+      "review_input_sha256": "a1f9cca59657ba4a0f6a50543d2ef2701f8fbe5e302df0001c77aae20a68d420",
+      "published_sha256": "8882bbbfe8ceffdb253857e4a15364de665573227f69584357d3ea163268c122",
+      "transformation": "English comments, local-path redaction, whitespace normalization; publication notice where applicable"
+    },
+    {
+      "published_path": "snapshots/b4/overlay/generators/chipyard/src/main/scala/Hytron64SmallConfig.scala",
+      "review_input_path": "chipyard/generators/chipyard/src/main/scala/Hytron64SmallConfig.scala",
+      "review_input_sha256": "6daa34eb409841631965db946b440856663b8d3e5360753dccd73b1a510baa58",
+      "published_sha256": "7a30791a5fb136df5c092f9da9bccfaced1ab27a58a52c32467a614ab899f2b8",
+      "transformation": "English comments, local-path redaction, whitespace normalization; publication notice where applicable"
+    },
+    {
+      "published_path": "snapshots/b4/overlay/generators/chipyard/src/main/scala/Hytron64SmallSmpL2B1Config.scala",
+      "review_input_path": "chipyard/generators/chipyard/src/main/scala/Hytron64SmallSmpL2B1Config.scala",
+      "review_input_sha256": "118af44c19426313ce6d09ae9d662e5739c5ef327ef7a3d7f3cf062f54608162",
+      "published_sha256": "615ae307d1e3481e34b38aaf3f1b983aba069b3826c577bcee80e004268f2fea",
+      "transformation": "English comments, local-path redaction, whitespace normalization; publication notice where applicable"
+    },
+    {
+      "published_path": "snapshots/b4/overlay/generators/chipyard/src/main/scala/Hytron64SmallB2TwoContextConfig.scala",
+      "review_input_path": "chipyard/generators/chipyard/src/main/scala/Hytron64SmallB2TwoContextConfig.scala",
+      "review_input_sha256": "dd69270e462c5a90c1d9c542ea64d596679146b3be6a796d07e23605ea02f266",
+      "published_sha256": "a3c69938356ee91d776652a35d1220266a26d4aa2d68f68c5e0a006e05851dc3",
+      "transformation": "English comments, local-path redaction, whitespace normalization; publication notice where applicable"
+    },
+    {
+      "published_path": "snapshots/b4/overlay/generators/chipyard/src/main/scala/Hytron64SmallB3DualAddConfig.scala",
+      "review_input_path": "chipyard/generators/chipyard/src/main/scala/Hytron64SmallB3DualAddConfig.scala",
+      "review_input_sha256": "433aad8bbcfd133905918bc0a5cccfe3ec92a75b4387358d0492aa25b51dbc2b",
+      "published_sha256": "c8684db75879adc8816841e44797a5eeb5abbb7bc74ff49f81f4aab0ed3c66d6",
+      "transformation": "English comments, local-path redaction, whitespace normalization; publication notice where applicable"
+    },
+    {
+      "published_path": "snapshots/b4/overlay/generators/chipyard/src/main/scala/Hytron64SmallB3DualAddR1p1Config.scala",
+      "review_input_path": "chipyard/generators/chipyard/src/main/scala/Hytron64SmallB3DualAddR1p1Config.scala",
+      "review_input_sha256": "7760df4e98883f342ad9cfde76365da59f5e79ff0769689df59927721e4c88f4",
+      "published_sha256": "71882196b324c0786342bba0cec8d4292087d5ebcf479eeaa934a1f806934448",
+      "transformation": "English comments, local-path redaction, whitespace normalization; publication notice where applicable"
+    },
+    {
+      "published_path": "snapshots/b4/overlay/generators/chipyard/src/main/scala/Hytron64SmallB4RepeatConfig.scala",
+      "review_input_path": "chipyard/generators/chipyard/src/main/scala/Hytron64SmallB4RepeatConfig.scala",
+      "review_input_sha256": "76eff60e035eef800d317e5cea6e1289abaefff19227466c4ac9a35d3ee79ce8",
+      "published_sha256": "6d569c09c52ce8d35fddf2c33348b9c286f669c8b61236e089e3738c9cf932d7",
+      "transformation": "English comments, local-path redaction, whitespace normalization; publication notice where applicable"
+    },
+    {
+      "published_path": "snapshots/b4/overlay/generators/chipyard/src/main/scala/Hytron64SmallSMP2BenchConfig.scala",
+      "review_input_path": "chipyard/generators/chipyard/src/main/scala/Hytron64SmallSMP2BenchConfig.scala",
+      "review_input_sha256": "08143b7891d6df7118ce7f30dd52b5339b17e6948255c7ee04988ede44904231",
+      "published_sha256": "1a36baf078714d608e36928f2545d7cb22e7dbf75b81a877a6c6523f046e7ebb",
+      "transformation": "English comments, local-path redaction, whitespace normalization; publication notice where applicable"
+    },
+    {
+      "published_path": "tests/b3/build.sh",
+      "review_input_path": "HYTRON64_B3_DUALADD_R1/tests/build.sh",
+      "review_input_sha256": "2e1e2bca4cc5ec34a4a89ed6a7431322c120f633a606d4cd64f5a41dabb1f567",
+      "published_sha256": "2e1e2bca4cc5ec34a4a89ed6a7431322c120f633a606d4cd64f5a41dabb1f567",
+      "transformation": "English comments, local-path redaction, whitespace normalization; publication notice where applicable"
+    },
+    {
+      "published_path": "tests/b3/check_log.py",
+      "review_input_path": "HYTRON64_B3_DUALADD_R1/tests/check_log.py",
+      "review_input_sha256": "fb3099288da72e656dfe6b244ed3769eafef1ccb9ac91aee53e752d9edc0247c",
+      "published_sha256": "fb3099288da72e656dfe6b244ed3769eafef1ccb9ac91aee53e752d9edc0247c",
+      "transformation": "English comments, local-path redaction, whitespace normalization; publication notice where applicable"
+    },
+    {
+      "published_path": "tests/b3/dualadd.S",
+      "review_input_path": "HYTRON64_B3_DUALADD_R1/tests/dualadd.S",
+      "review_input_sha256": "9e451baec4b54060b5b47f72602c2324d6682b512c7fff4dc8574656c6ff2cd9",
+      "published_sha256": "9e451baec4b54060b5b47f72602c2324d6682b512c7fff4dc8574656c6ff2cd9",
+      "transformation": "English comments, local-path redaction, whitespace normalization; publication notice where applicable"
+    },
+    {
+      "published_path": "tests/b3/link.ld",
+      "review_input_path": "HYTRON64_B3_DUALADD_R1/tests/link.ld",
+      "review_input_sha256": "ae8480b3e2321ee4115cb6fc77df534cda6e461b975c11483cb9b02cc688b549",
+      "published_sha256": "ae8480b3e2321ee4115cb6fc77df534cda6e461b975c11483cb9b02cc688b549",
+      "transformation": "English comments, local-path redaction, whitespace normalization; publication notice where applicable"
+    },
+    {
+      "published_path": "tests/b3/run.sh",
+      "review_input_path": "HYTRON64_B3_DUALADD_R1/tests/run.sh",
+      "review_input_sha256": "a060e81486792961cf09ee60d537852cd8a82ae759ec0927f35336c88ebd7ab2",
+      "published_sha256": "1b57036b3c635872378391a723b89de3dc272b7665a84ec4f3580cee8df8e9d7",
+      "transformation": "English comments, local-path redaction, whitespace normalization; publication notice where applicable"
+    },
+    {
+      "published_path": "evidence/b3/case0.run.log",
+      "review_input_path": "HYTRON64_B3_DUALADD_R1/tests/build/case0.run.log",
+      "review_input_sha256": "c6fb806878e29ac95027b58109b9ce9ad9de2523130552b8b92d1ec81b76f899",
+      "published_sha256": "71f511bc250092252aaae45358453802729f095213776197d694ee24c3f65eb9",
+      "transformation": "English comments, local-path redaction, whitespace normalization; publication notice where applicable"
+    },
+    {
+      "published_path": "evidence/b3/case1.run.log",
+      "review_input_path": "HYTRON64_B3_DUALADD_R1/tests/build/case1.run.log",
+      "review_input_sha256": "148be5765b1e6711a2bc1020494207e8b417253a8080e34e0e49e161a5132913",
+      "published_sha256": "4e6a8aa03a8937ee22c1d0e0da47ef615b329104306b2126f84c149c0607a65f",
+      "transformation": "English comments, local-path redaction, whitespace normalization; publication notice where applicable"
+    },
+    {
+      "published_path": "evidence/b3/case2.run.log",
+      "review_input_path": "HYTRON64_B3_DUALADD_R1/tests/build/case2.run.log",
+      "review_input_sha256": "b442ee9f26e93e81046cb317da037bef8aac9302fa2f7310ffb79e60d10e1e63",
+      "published_sha256": "d17848b4e7979a69eafee6c9d1c61315df94f0eccc7bbb010576c999f6bdf740",
+      "transformation": "English comments, local-path redaction, whitespace normalization; publication notice where applicable"
+    },
+    {
+      "published_path": "evidence/b3/case3.run.log",
+      "review_input_path": "HYTRON64_B3_DUALADD_R1/tests/build/case3.run.log",
+      "review_input_sha256": "942990054b2c3f44dffe1100f84167d223637e91f9edee1aee8e33f88cc9c7a8",
+      "published_sha256": "50dc539c99a47e79e38cfb5932ebac648fe33e9cef56de66e6f5df1bf69f264c",
+      "transformation": "English comments, local-path redaction, whitespace normalization; publication notice where applicable"
+    },
+    {
+      "published_path": "tests/b4/build.sh",
+      "review_input_path": "HYTRON64_B4_REPEAT_R1/tests/build.sh",
+      "review_input_sha256": "a81b1d164f3514bcfc8d8bf0dbeff57f8716ae8174f993c6fab52dabc4adde2d",
+      "published_sha256": "a81b1d164f3514bcfc8d8bf0dbeff57f8716ae8174f993c6fab52dabc4adde2d",
+      "transformation": "English comments, local-path redaction, whitespace normalization; publication notice where applicable"
+    },
+    {
+      "published_path": "tests/b4/check_log.py",
+      "review_input_path": "HYTRON64_B4_REPEAT_R1/tests/check_log.py",
+      "review_input_sha256": "f454e00649dda87c9159a3a46ec88896b5e2c36e94376f06fefdc8793e1af5a2",
+      "published_sha256": "f454e00649dda87c9159a3a46ec88896b5e2c36e94376f06fefdc8793e1af5a2",
+      "transformation": "English comments, local-path redaction, whitespace normalization; publication notice where applicable"
+    },
+    {
+      "published_path": "tests/b4/link.ld",
+      "review_input_path": "HYTRON64_B4_REPEAT_R1/tests/link.ld",
+      "review_input_sha256": "4df529e770cf2f5020c8ff75fb6bf015534442b56def05c21a233d783136b3e2",
+      "published_sha256": "4df529e770cf2f5020c8ff75fb6bf015534442b56def05c21a233d783136b3e2",
+      "transformation": "English comments, local-path redaction, whitespace normalization; publication notice where applicable"
+    },
+    {
+      "published_path": "tests/b4/repeat.S",
+      "review_input_path": "HYTRON64_B4_REPEAT_R1/tests/repeat.S",
+      "review_input_sha256": "3c3be935990bf1f5f07a544559cd1812e4aaf9786c6545f0547ac59967661a28",
+      "published_sha256": "3c3be935990bf1f5f07a544559cd1812e4aaf9786c6545f0547ac59967661a28",
+      "transformation": "English comments, local-path redaction, whitespace normalization; publication notice where applicable"
+    },
+    {
+      "published_path": "tests/b4/run.sh",
+      "review_input_path": "HYTRON64_B4_REPEAT_R1/tests/run.sh",
+      "review_input_sha256": "6ffd146521ce1b80946b3278bf532058c575fd37d728e47a8508adec549b1b93",
+      "published_sha256": "6ffd146521ce1b80946b3278bf532058c575fd37d728e47a8508adec549b1b93",
+      "transformation": "English comments, local-path redaction, whitespace normalization; publication notice where applicable"
+    },
+    {
+      "published_path": "tests/b4/run_tests.py",
+      "review_input_path": "HYTRON64_B4_REPEAT_R1/tests/run_tests.py",
+      "review_input_sha256": "06c29fdf9d13ed1f3e4e612a30cd1db9d6eb8b2cb1815059379590e1000b7c91",
+      "published_sha256": "06c29fdf9d13ed1f3e4e612a30cd1db9d6eb8b2cb1815059379590e1000b7c91",
+      "transformation": "English comments, local-path redaction, whitespace normalization; publication notice where applicable"
+    },
+    {
+      "published_path": "evidence/b4/case0.run.log",
+      "review_input_path": "HYTRON64_B4_REPEAT_R1/tests/build/case0.run.log",
+      "review_input_sha256": "4d8613fc7f31d6c04a9ef7cf124d18420a5bbf7ba0db988be419df20d300ff4e",
+      "published_sha256": "d211ab4a9743595264ef55e39ef09bf5a65efdb686de7e5e0af2c20fd98ccb04",
+      "transformation": "English comments, local-path redaction, whitespace normalization; publication notice where applicable"
+    },
+    {
+      "published_path": "evidence/b4/case1.run.log",
+      "review_input_path": "HYTRON64_B4_REPEAT_R1/tests/build/case1.run.log",
+      "review_input_sha256": "e3b3147d2824f8c228e90018e87bee0849659e66aa6cd71c7dc5089c25b4bc57",
+      "published_sha256": "675d48cc1bdb1fab0c0dc7ef2da155a96e723bb8c93bd48152409aa01ee0eb8d",
+      "transformation": "English comments, local-path redaction, whitespace normalization; publication notice where applicable"
+    },
+    {
+      "published_path": "evidence/b4/case2.run.log",
+      "review_input_path": "HYTRON64_B4_REPEAT_R1/tests/build/case2.run.log",
+      "review_input_sha256": "cc0fa4f1b517707cc725b15d1fccbac8d58b0ef7c3b82ea1a6e6f88f015f0f0a",
+      "published_sha256": "c2f8a2210dc388541975833ae3ca661b3f4d7cb7191ade568eff1ddbb81af34d",
+      "transformation": "English comments, local-path redaction, whitespace normalization; publication notice where applicable"
+    },
+    {
+      "published_path": "evidence/b4/case0.metrics.json",
+      "review_input_path": "HYTRON64_B4_REPEAT_R1/tests/build/case0.metrics.json",
+      "review_input_sha256": "1475ccb3d6226322a6e2c1c7753a8b28cd36cf192711827cf5f5be33ebe01bf5",
+      "published_sha256": "1475ccb3d6226322a6e2c1c7753a8b28cd36cf192711827cf5f5be33ebe01bf5",
+      "transformation": "English comments, local-path redaction, whitespace normalization; publication notice where applicable"
+    },
+    {
+      "published_path": "evidence/b4/case1.metrics.json",
+      "review_input_path": "HYTRON64_B4_REPEAT_R1/tests/build/case1.metrics.json",
+      "review_input_sha256": "aad1f56818b3d1ac5a64cb0ebcbd005b3ac33107dfa5db9d5ca49a32c6591cf0",
+      "published_sha256": "aad1f56818b3d1ac5a64cb0ebcbd005b3ac33107dfa5db9d5ca49a32c6591cf0",
+      "transformation": "English comments, local-path redaction, whitespace normalization; publication notice where applicable"
+    },
+    {
+      "published_path": "evidence/b4/case2.metrics.json",
+      "review_input_path": "HYTRON64_B4_REPEAT_R1/tests/build/case2.metrics.json",
+      "review_input_sha256": "4464d1d182f14ebe8f59ce1e2e0fcb33d190276ef336613cd6ae3928de113922",
+      "published_sha256": "4464d1d182f14ebe8f59ce1e2e0fcb33d190276ef336613cd6ae3928de113922",
+      "transformation": "English comments, local-path redaction, whitespace normalization; publication notice where applicable"
+    },
+    {
+      "published_path": "tests/smp2/build.sh",
+      "review_input_path": "HYTRON64_SMP2_RUN_R1/tests/build.sh",
+      "review_input_sha256": "1bf3f61ef16212f681619ab4d62faa228bfd803fefe6cb8fdd1745987c846da0",
+      "published_sha256": "1bf3f61ef16212f681619ab4d62faa228bfd803fefe6cb8fdd1745987c846da0",
+      "transformation": "English comments, local-path redaction, whitespace normalization; publication notice where applicable"
+    },
+    {
+      "published_path": "tests/smp2/check_log.py",
+      "review_input_path": "HYTRON64_SMP2_RUN_R1/tests/check_log.py",
+      "review_input_sha256": "e6835759a4fc1aeb44227ecbe1b09b078eeea9dc5494cabeeb85b15725130ce2",
+      "published_sha256": "e6835759a4fc1aeb44227ecbe1b09b078eeea9dc5494cabeeb85b15725130ce2",
+      "transformation": "English comments, local-path redaction, whitespace normalization; publication notice where applicable"
+    },
+    {
+      "published_path": "tests/smp2/link.ld",
+      "review_input_path": "HYTRON64_SMP2_RUN_R1/tests/link.ld",
+      "review_input_sha256": "e12cb27e268d6eddb3ef800e8cee1b653f9f986f7b0701aaa0fe64de7f9fe7df",
+      "published_sha256": "e12cb27e268d6eddb3ef800e8cee1b653f9f986f7b0701aaa0fe64de7f9fe7df",
+      "transformation": "English comments, local-path redaction, whitespace normalization; publication notice where applicable"
+    },
+    {
+      "published_path": "tests/smp2/run.sh",
+      "review_input_path": "HYTRON64_SMP2_RUN_R1/tests/run.sh",
+      "review_input_sha256": "6ffd146521ce1b80946b3278bf532058c575fd37d728e47a8508adec549b1b93",
+      "published_sha256": "6ffd146521ce1b80946b3278bf532058c575fd37d728e47a8508adec549b1b93",
+      "transformation": "English comments, local-path redaction, whitespace normalization; publication notice where applicable"
+    },
+    {
+      "published_path": "tests/smp2/run_tests.py",
+      "review_input_path": "HYTRON64_SMP2_RUN_R1/tests/run_tests.py",
+      "review_input_sha256": "3fda0ac4117675f39e85353ecdf4fa45d769e5a82bf364ecc2ea4326e3b68a98",
+      "published_sha256": "3fda0ac4117675f39e85353ecdf4fa45d769e5a82bf364ecc2ea4326e3b68a98",
+      "transformation": "English comments, local-path redaction, whitespace normalization; publication notice where applicable"
+    },
+    {
+      "published_path": "tests/smp2/smp2.S",
+      "review_input_path": "HYTRON64_SMP2_RUN_R1/tests/smp2.S",
+      "review_input_sha256": "8e8edbad4f4f72f37a4a9e1c1943c1b108b9302e8154467bff051d3b6b14d827",
+      "published_sha256": "8e8edbad4f4f72f37a4a9e1c1943c1b108b9302e8154467bff051d3b6b14d827",
+      "transformation": "English comments, local-path redaction, whitespace normalization; publication notice where applicable"
+    },
+    {
+      "published_path": "evidence/smp2/case0.run.log",
+      "review_input_path": "HYTRON64_SMP2_RUN_R1/tests/build/case0.run.log",
+      "review_input_sha256": "2613429e8175b2d09384cf5ec599cfc0034aca5be90cd81fe145a383d98d9e7e",
+      "published_sha256": "330742457910eeae0709bc4bdeb950e902e665fbc941bc08a6fc8ac843625f72",
+      "transformation": "English comments, local-path redaction, whitespace normalization; publication notice where applicable"
+    },
+    {
+      "published_path": "evidence/smp2/case1.run.log",
+      "review_input_path": "HYTRON64_SMP2_RUN_R1/tests/build/case1.run.log",
+      "review_input_sha256": "315d87c623ca643e0f314e1aad181f11a1a2ce76540f4b7dd6ee922e20560225",
+      "published_sha256": "183ba049139adc22d140edb98e7e0429e19e8f719d247c244428cf62e5224776",
+      "transformation": "English comments, local-path redaction, whitespace normalization; publication notice where applicable"
+    },
+    {
+      "published_path": "evidence/smp2/case2.run.log",
+      "review_input_path": "HYTRON64_SMP2_RUN_R1/tests/build/case2.run.log",
+      "review_input_sha256": "3a6399c08d3e9ce245b886a89bfee098148c85e3bb2119e3b32dd7882716361a",
+      "published_sha256": "bbda464f148456154981871f49d976cbd0e3e28bf95df41d7ae128248d6720ba",
+      "transformation": "English comments, local-path redaction, whitespace normalization; publication notice where applicable"
+    },
+    {
+      "published_path": "evidence/smp2/case0.metrics.json",
+      "review_input_path": "HYTRON64_SMP2_RUN_R1/tests/build/case0.metrics.json",
+      "review_input_sha256": "afc3a5e1fd6e8757926b34e8a871aa1e4cf4ab83e38091e39bd0cec1cbccc093",
+      "published_sha256": "afc3a5e1fd6e8757926b34e8a871aa1e4cf4ab83e38091e39bd0cec1cbccc093",
+      "transformation": "English comments, local-path redaction, whitespace normalization; publication notice where applicable"
+    },
+    {
+      "published_path": "evidence/smp2/case1.metrics.json",
+      "review_input_path": "HYTRON64_SMP2_RUN_R1/tests/build/case1.metrics.json",
+      "review_input_sha256": "558f38b79a957b55432e387b334bfbaa48d0b5953a61bf63f4e3f5684627c2f8",
+      "published_sha256": "558f38b79a957b55432e387b334bfbaa48d0b5953a61bf63f4e3f5684627c2f8",
+      "transformation": "English comments, local-path redaction, whitespace normalization; publication notice where applicable"
+    },
+    {
+      "published_path": "evidence/smp2/case2.metrics.json",
+      "review_input_path": "HYTRON64_SMP2_RUN_R1/tests/build/case2.metrics.json",
+      "review_input_sha256": "768b2baae8a5b863b3a7626cb8f14051156f2181b246add7a62e5d5a0f31bf77",
+      "published_sha256": "768b2baae8a5b863b3a7626cb8f14051156f2181b246add7a62e5d5a0f31bf77",
+      "transformation": "English comments, local-path redaction, whitespace normalization; publication notice where applicable"
+    },
+    {
+      "published_path": "tests/b1/boot_uart_b1_hart0.S",
+      "review_input_path": "chipyard/sims/verilator/HYTRON64_010L_FW/boot_uart_b1_hart0.S",
+      "review_input_sha256": "7bf075333af8529711d3e0f2e05a9257993037afe58d3e4d1e317b38a0afc1c9",
+      "published_sha256": "895086f2af437b2e535d8f210de8804431d302cd2127cd66dbd76a742a4459c5",
+      "transformation": "English comments, local-path redaction, whitespace normalization; publication notice where applicable"
+    },
+    {
+      "published_path": "tests/b1/boot_uart_b1_smp_l2.S",
+      "review_input_path": "chipyard/sims/verilator/HYTRON64_010L_FW/boot_uart_b1_smp_l2.S",
+      "review_input_sha256": "7b164f14202fc512e2c7e1aec1ea5a50112c2d349a46846c4f3bc889952bfe62",
+      "published_sha256": "1a2405ed4debc297e7967a2b94a89fc86acc3f5325d1cc3c4ca48d6993d2be96",
+      "transformation": "English comments, local-path redaction, whitespace normalization; publication notice where applicable"
+    },
+    {
+      "published_path": "tests/b1/boot_uart.ld",
+      "review_input_path": "chipyard/sims/verilator/HYTRON64_010L_FW/boot_uart.ld",
+      "review_input_sha256": "1480440255258e1db885be24ddec3b208a752e0e8f25e75b5c1d2b3e678f2085",
+      "published_sha256": "1480440255258e1db885be24ddec3b208a752e0e8f25e75b5c1d2b3e678f2085",
+      "transformation": "English comments, local-path redaction, whitespace normalization; publication notice where applicable"
+    },
+    {
+      "published_path": "tests/b2/boot_uart_b2_bench.S",
+      "review_input_path": "chipyard/sims/verilator/HYTRON64_010L_FW/boot_uart_b2_bench.S",
+      "review_input_sha256": "d313760c71b544e6f92a8e08026dcac6e0aa567d62969ea0e90a63028e238cef",
+      "published_sha256": "1ee53e2489a68c79ada0f505d5cf0daca25011ed7eaa7b8ca20d57ff484f4cfa",
+      "transformation": "English comments, local-path redaction, whitespace normalization; publication notice where applicable"
+    },
+    {
+      "published_path": "tests/b2/boot_uart_b2_2ctx.S",
+      "review_input_path": "chipyard/sims/verilator/HYTRON64_010L_FW/boot_uart_b2_2ctx.S",
+      "review_input_sha256": "0ba849096b518ca50def58b1bdfc429e53dbed16060325675644510fbd032e3f",
+      "published_sha256": "8b0a4f3a66dbc18247878080841684b4c8f0b5b7ce2967e76d09d5abf4a0a8a2",
+      "transformation": "English comments, local-path redaction, whitespace normalization; publication notice where applicable"
+    },
+    {
+      "published_path": "tests/b2/boot_uart_b2_2ctx.ld",
+      "review_input_path": "chipyard/sims/verilator/HYTRON64_010L_FW/boot_uart_b2_2ctx.ld",
+      "review_input_sha256": "5e8badd009708b1bf10085f40f28342beac1f4e17034cbf6b6579801130128ab",
+      "published_sha256": "1376ed9a666351e44a02b48a265ae50f887e211e088acb479c08a7ae8a8b7b24",
+      "transformation": "English comments, local-path redaction, whitespace normalization; publication notice where applicable"
+    },
+    {
+      "published_path": "tests/b2/boot_uart_b2_2ctx_csr_bank.S",
+      "review_input_path": "chipyard/sims/verilator/HYTRON64_010L_FW/boot_uart_b2_2ctx_csr_bank.S",
+      "review_input_sha256": "ed04c9a9276abd0a2d6a812a4226288743a3793f3ebe67c840e14275caad7492",
+      "published_sha256": "3a405f81fa0881559c290047a40874621574cbffe34e199bb764761a443239f2",
+      "transformation": "English comments, local-path redaction, whitespace normalization; publication notice where applicable"
+    },
+    {
+      "published_path": "tests/b2/boot_uart_b2_2ctx_csr_bank.ld",
+      "review_input_path": "chipyard/sims/verilator/HYTRON64_010L_FW/boot_uart_b2_2ctx_csr_bank.ld",
+      "review_input_sha256": "5e8badd009708b1bf10085f40f28342beac1f4e17034cbf6b6579801130128ab",
+      "published_sha256": "1376ed9a666351e44a02b48a265ae50f887e211e088acb479c08a7ae8a8b7b24",
+      "transformation": "English comments, local-path redaction, whitespace normalization; publication notice where applicable"
+    },
+    {
+      "published_path": "tests/b2/boot_uart_b2_2ctx_csr_trap.S",
+      "review_input_path": "chipyard/sims/verilator/HYTRON64_010L_FW/boot_uart_b2_2ctx_csr_trap.S",
+      "review_input_sha256": "78b4e0fb7ec1e4b93356c9dc866c4aceb2739ae69147d8b867333de688000935",
+      "published_sha256": "61cd5b0daeb8f5db4af35d762002bee175a12a7e391876bce824e620a729528b",
+      "transformation": "English comments, local-path redaction, whitespace normalization; publication notice where applicable"
+    },
+    {
+      "published_path": "tests/b2/boot_uart_b2_2ctx_csr_trap.ld",
+      "review_input_path": "chipyard/sims/verilator/HYTRON64_010L_FW/boot_uart_b2_2ctx_csr_trap.ld",
+      "review_input_sha256": "5e8badd009708b1bf10085f40f28342beac1f4e17034cbf6b6579801130128ab",
+      "published_sha256": "1376ed9a666351e44a02b48a265ae50f887e211e088acb479c08a7ae8a8b7b24",
+      "transformation": "English comments, local-path redaction, whitespace normalization; publication notice where applicable"
+    },
+    {
+      "published_path": "tests/b2/boot_uart.ld",
+      "review_input_path": "chipyard/sims/verilator/HYTRON64_010L_FW/boot_uart.ld",
+      "review_input_sha256": "1480440255258e1db885be24ddec3b208a752e0e8f25e75b5c1d2b3e678f2085",
+      "published_sha256": "1480440255258e1db885be24ddec3b208a752e0e8f25e75b5c1d2b3e678f2085",
+      "transformation": "English comments, local-path redaction, whitespace normalization; publication notice where applicable"
+    },
+    {
+      "published_path": "evidence/b1/HYTRON64_B1_BOOT_UART.log",
+      "review_input_path": "HYTRON64_B1_BOOT_UART.log",
+      "review_input_sha256": "a408d6b959c5afacd47e05956fbf84ffada49a66b982a32877c0f612d50ab4f4",
+      "published_sha256": "4a49b31bea532f2af1c22cf98bb4115a52e0c3a18af3e1b9efd80ea6915138e6",
+      "transformation": "English comments, local-path redaction, whitespace normalization; publication notice where applicable"
+    },
+    {
+      "published_path": "evidence/b1/HYTRON64_B1_HART0_UART.log",
+      "review_input_path": "HYTRON64_B1_HART0_UART.log",
+      "review_input_sha256": "eb0535c489698c74c5ef3ac3db7ca42b2df63981571a86ad00f41670f1fb2d73",
+      "published_sha256": "dd4d777217468caef0d99fd6f7f426a80e262e1412ba42593a61e1c1299c1ba5",
+      "transformation": "English comments, local-path redaction, whitespace normalization; publication notice where applicable"
+    },
+    {
+      "published_path": "evidence/b1/HYTRON64_B1_SMP_L2_ROUNDTRIP.log",
+      "review_input_path": "HYTRON64_B1_SMP_L2_ROUNDTRIP.log",
+      "review_input_sha256": "b83935d848d9624d7f6dfd505ef1a13b27059f63a20c055b6f05cdf4c06e6fc9",
+      "published_sha256": "5c4a03246ca381d1d0de2e5de82d2456a4035e5f65c9744f54944758248e2e0e",
+      "transformation": "English comments, local-path redaction, whitespace normalization; publication notice where applicable"
+    },
+    {
+      "published_path": "evidence/b2/HYTRON64_B2_HART1.log",
+      "review_input_path": "HYTRON64_B2_HART1.log",
+      "review_input_sha256": "58042e7cb5818e96135236776bf14f1e1f13762e9083e758abd4847260b9fb8c",
+      "published_sha256": "66334a56547df74e980c84c40204150f79a661a261db9e34b0569ad85c07cd9e",
+      "transformation": "English comments, local-path redaction, whitespace normalization; publication notice where applicable"
+    },
+    {
+      "published_path": "evidence/b2/HYTRON64_B2_HART2.log",
+      "review_input_path": "HYTRON64_B2_HART2.log",
+      "review_input_sha256": "d9f97b5cc5c83abbc06c410ab473b36761799df10fcb6c1609508d0adef9a549",
+      "published_sha256": "f4b103825967a5eb3422cad2a882a50b2e4de76ec59b7caffab50fd6d8653e8b",
+      "transformation": "English comments, local-path redaction, whitespace normalization; publication notice where applicable"
+    },
+    {
+      "published_path": "evidence/b2/HYTRON64_B2_2CTX.log",
+      "review_input_path": "HYTRON64_B2_2CTX.log",
+      "review_input_sha256": "8f430c2e3de13dc0fd6d33068578f84b0a7ac4a9ee6f1096eb2eed3700c412bb",
+      "published_sha256": "fd7591e462c9b212c30cc62fee4315c24ec533f3582f28fb243476195ada64bb",
+      "transformation": "English comments, local-path redaction, whitespace normalization; publication notice where applicable"
+    },
+    {
+      "published_path": "evidence/b2/HYTRON64_B2_2CTX_CSR_BANK_ISOLATION.log",
+      "review_input_path": "HYTRON64_B2_2CTX_CSR_BANK_ISOLATION.log",
+      "review_input_sha256": "1b7f7460e68134f847d727720cdc1ba473b8395ec2a4c7113b81e2ea1e320c2f",
+      "published_sha256": "ac6d9f043bf574f4a426e4d04442d802e23d0175a88a49769fc2ecf343cc50a7",
+      "transformation": "English comments, local-path redaction, whitespace normalization; publication notice where applicable"
+    },
+    {
+      "published_path": "evidence/b2/HYTRON64_B2_2CTX_CSR_BANK_REGRESSION.log",
+      "review_input_path": "HYTRON64_B2_2CTX_CSR_BANK_REGRESSION.log",
+      "review_input_sha256": "fb510556ebd6ec720af2ab1b86137289235040be183ff3c99d0e59594b485c07",
+      "published_sha256": "bc6ac6128935c8523eaa5762795181a8c63f9e9bf8dfedf0d1c9268c81f14b81",
+      "transformation": "English comments, local-path redaction, whitespace normalization; publication notice where applicable"
+    },
+    {
+      "published_path": "evidence/b2/HYTRON64_B2_2CTX_CSR_TRAP.log",
+      "review_input_path": "HYTRON64_B2_2CTX_CSR_TRAP.log",
+      "review_input_sha256": "161307978e95ead50ead87059c9e4842c943d9719fd2a4e33e75b736843ebdcc",
+      "published_sha256": "e8cb59fee91f5ce7e56aa1e985345b73f6741f83e3920246be42e5fb2866bc46",
+      "transformation": "English comments, local-path redaction, whitespace normalization; publication notice where applicable"
+    },
+    {
+      "published_path": "evidence/smp2/system.dts",
+      "review_input_path": "HYTRON64_SMP2_DTS.txt",
+      "review_input_sha256": "bd4ea8ee1305c61f8e1aaa011b8c0a4ae526c919e36a1af104767d79e35d1104",
+      "published_sha256": "bd4ea8ee1305c61f8e1aaa011b8c0a4ae526c919e36a1af104767d79e35d1104",
+      "transformation": "English comments, local-path redaction, whitespace normalization; publication notice where applicable"
+    },
+    {
+      "published_path": "LICENSE.Berkeley",
+      "review_input_path": "chipyard/generators/rocket-chip/LICENSE.Berkeley",
+      "review_input_sha256": "54349a017a8a0876fcc5ef281fc37aedbf5a008158395eaad0f589ade7f019cc",
+      "published_sha256": "54349a017a8a0876fcc5ef281fc37aedbf5a008158395eaad0f589ade7f019cc",
+      "transformation": "English comments, local-path redaction, whitespace normalization; publication notice where applicable"
+    },
+    {
+      "published_path": "LICENSE.SiFive",
+      "review_input_path": "chipyard/generators/rocket-chip/LICENSE.SiFive",
+      "review_input_sha256": "63b453c2c3f5e5d31007f55eaacc2b72e8b7a40e6ab33eae6972ba010fa7acc4",
+      "published_sha256": "63b453c2c3f5e5d31007f55eaacc2b72e8b7a40e6ab33eae6972ba010fa7acc4",
+      "transformation": "English comments, local-path redaction, whitespace normalization; publication notice where applicable"
+    },
+    {
+      "published_path": "LICENSES/Chipyard-BSD-3-Clause.txt",
+      "review_input_path": "chipyard/LICENSE",
+      "review_input_sha256": "c36c8dd92ba95a48aaed1b89de09a636d5a4e1dd2e726428d0c0b3644a267cd5",
+      "published_sha256": "c36c8dd92ba95a48aaed1b89de09a636d5a4e1dd2e726428d0c0b3644a267cd5",
+      "transformation": "English comments, local-path redaction, whitespace normalization; publication notice where applicable"
+    }
+  ]
+}

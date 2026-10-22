@@ -1,0 +1,6 @@
+HYTRON64-B2 HARTS=1 CYCLES=0x0000000000155CDF CHECKSUM=0x00000004A8194EA0
+[UART] UART0 is here (stdin/stdout).
+- <WORKSPACE>/chipyard/sims/verilator/generated-src/chipyard.harness.TestHarness.Hytron64SmallConfig/gen-collateral/TestDriver.v:158: Verilog $finish
+- S i m u l a t i o n   R e p o r t: Verilator 5.032 2025-01-01
+- Verilator: $finish at 10ms; walltime 144.828 s; speed 66.554 us/s
+- Verilator: cpu 144.813 s on 1 threads; alloced 92 MB

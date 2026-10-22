@@ -1,0 +1,6 @@
+HYTRON64-H1TLOUA4T0M0L UART
+MEM [UART] UART0 is here (stdin/stdout).
+- <WORKSPACE>/chipyard/sims/verilator/generated-src/chipyard.harness.TestHarness.Hytron64SmallSmpL2B1Config/gen-collateral/TestDriver.v:158: Verilog $finish
+- S i m u l a t i o n   R e p o r t: Verilator 5.032 2025-01-01
+- Verilator: $finish at 3ms; walltime 37.650 s; speed 77.887 us/s
+- Verilator: cpu 37.643 s on 1 threads; alloced 92 MB

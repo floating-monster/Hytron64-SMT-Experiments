@@ -1,0 +1,50 @@
+{
+  "generators/rocket-chip/src/main/scala/rocket/CSR.scala": [
+    "8f0b27178f5741f37d49d85cd253f590eb46bf44cc15703ed9960a64edaca20b",
+    "ff23f7e5933e05c056f8b1a8489fa885a378a4351b5f9f7513ff0a5e81373d9d"
+  ],
+  "generators/rocket-chip/src/main/scala/rocket/RocketCore.scala": [
+    "0e06de37d081e5d93f9127e3bc766553e72910b9a9c2e3f3162e522fb732d511",
+    "3136b9b16df7542d47da1a8555e23fbcd3e4a1f143213a2458b0d41e2730c965",
+    "6e250e096407fe2b82e3b6a942fb85557a5299e337bc9bc73d6a54bcad840017",
+    "8d8840cdfeb586cb412f592e896ece3b5b46bb2f3bc6520672b3d64f1eb9e6e7",
+    "bcb292af2482702d02d2278e3cfe9caffcc3ad592fc923761102c87683b2f3c7",
+    "fd9587cf65cdb3fce6ae61c06472cdc5b547e2265010ed4c5b9c3a32b0ac6a6a"
+  ],
+  "generators/rocket-chip/src/main/scala/rocket/RocketContextParams.scala": [
+    "183bf81747e8c36db6b061d2618e0c126ed2636b9839db024bb256f5c7a183cc",
+    "5581c7a29bc2e747be61ad1a0f212d49bbb00768e9ce8009fde62b4998521531",
+    "8882bbbfe8ceffdb253857e4a15364de665573227f69584357d3ea163268c122",
+    "8d7f94e1bd6b76be2ecb928b729d45cc333857b65c23b4fea4c27f869959bfae",
+    "a1f9cca59657ba4a0f6a50543d2ef2701f8fbe5e302df0001c77aae20a68d420",
+    "a2d1e151177c041a4816dae7b5bf46a7b0a41c634fa172022286f7811715d16d"
+  ],
+  "generators/chipyard/src/main/scala/Hytron64SmallB2TwoContextConfig.scala": [
+    "a3c69938356ee91d776652a35d1220266a26d4aa2d68f68c5e0a006e05851dc3",
+    "dd69270e462c5a90c1d9c542ea64d596679146b3be6a796d07e23605ea02f266"
+  ],
+  "generators/chipyard/src/main/scala/Hytron64SmallConfig.scala": [
+    "6daa34eb409841631965db946b440856663b8d3e5360753dccd73b1a510baa58",
+    "7a30791a5fb136df5c092f9da9bccfaced1ab27a58a52c32467a614ab899f2b8"
+  ],
+  "generators/chipyard/src/main/scala/Hytron64SmallSmpL2B1Config.scala": [
+    "118af44c19426313ce6d09ae9d662e5739c5ef327ef7a3d7f3cf062f54608162",
+    "615ae307d1e3481e34b38aaf3f1b983aba069b3826c577bcee80e004268f2fea"
+  ],
+  "generators/chipyard/src/main/scala/Hytron64SmallB3DualAddConfig.scala": [
+    "433aad8bbcfd133905918bc0a5cccfe3ec92a75b4387358d0492aa25b51dbc2b",
+    "c8684db75879adc8816841e44797a5eeb5abbb7bc74ff49f81f4aab0ed3c66d6"
+  ],
+  "generators/chipyard/src/main/scala/Hytron64SmallB3DualAddR1p1Config.scala": [
+    "71882196b324c0786342bba0cec8d4292087d5ebcf479eeaa934a1f806934448",
+    "7760df4e98883f342ad9cfde76365da59f5e79ff0769689df59927721e4c88f4"
+  ],
+  "generators/chipyard/src/main/scala/Hytron64SmallB4RepeatConfig.scala": [
+    "6d569c09c52ce8d35fddf2c33348b9c286f669c8b61236e089e3738c9cf932d7",
+    "76eff60e035eef800d317e5cea6e1289abaefff19227466c4ac9a35d3ee79ce8"
+  ],
+  "generators/chipyard/src/main/scala/Hytron64SmallSMP2BenchConfig.scala": [
+    "08143b7891d6df7118ce7f30dd52b5339b17e6948255c7ee04988ede44904231",
+    "1a36baf078714d608e36928f2545d7cb22e7dbf75b81a877a6c6523f046e7ebb"
+  ]
+}

@@ -1,0 +1,12 @@
+HYTRON64 SMT Experiments (B1-B4)
+
+Experimental research archive; active development is paused.
+Project-authored publication files are distributed under Apache License 2.0.
+Upstream code and portions retain their original notices and applicable terms.
+See LICENSE, LICENSE.SiFive, LICENSE.Berkeley, LICENSES/Chipyard-BSD-3-Clause.txt,
+and THIRD_PARTY_NOTICES.md. No upstream endorsement is claimed.
+
+RocketCore.scala and CSR.scala contain local research modifications. Their
+existing upstream attribution headers are retained. Snapshot copies carry a
+prominent modification notice. Source paths/comments and whitespace have been
+normalized for publication; raw and published hashes are in PROVENANCE.json.

@@ -1,0 +1,9 @@
+__pycache__/
+*.pyc
+*.elf
+*.o
+*.map
+*.dump
+tests/*/build/
+*.tar.gz
+*.zip

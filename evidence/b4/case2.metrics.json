@@ -1,0 +1,30 @@
+{
+  "case": 2,
+  "pairs": 1024,
+  "paired_instructions": 2048,
+  "final_rf": [
+    "0x00000000000003ff",
+    "0x80000000000003ff"
+  ],
+  "pair_window": {
+    "pairs": 1024,
+    "paired_instructions": 2048,
+    "start": 214228,
+    "end": 256247,
+    "cycles": 42020,
+    "collect": 36901,
+    "drain": 0,
+    "issue": 1024,
+    "execute": 1024,
+    "commit": 2048,
+    "redirect": 1023
+  },
+  "software_checked_window": {
+    "start": 214228,
+    "end": 256564,
+    "cycles": 42337,
+    "pairs": 1024
+  },
+  "paired_instructions_per_pair_window_cycle": 0.04873869585911471,
+  "host_wall_seconds_with_verbose": 7.446660659999907
+}
